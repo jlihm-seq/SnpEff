@@ -71,3 +71,4 @@ foreach $chr (keys %files) {
 	print STDERR "Closing file for chromosome '$chr'\n";
 	$files{$chr}.close();
 }
+
